@@ -2,15 +2,23 @@
 .col-9,
 .col-12 {
     border: 1px solid black;
-    width: 70px;
     height: 100px;
     text-align: center;
     font-size: 4em;
 }
 
+.col-12 {
+    max-width: 60%;
+}
+
 .col-3 {
     background: #16171C;
     color: white;
+    max-width: 15%;
+}
+
+.col-9 {
+    max-width: 45%;
 }
 
 #clear {
